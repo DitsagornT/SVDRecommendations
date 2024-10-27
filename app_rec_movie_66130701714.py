@@ -10,7 +10,7 @@ import numpy as np
 from surprise.model_selection import cross_validate
 
 # Load the pre-trained SVD model, movie ratings, and movies data
-with open('recommendation_movie_svd.pkl', 'rb') as file:
+with open('66130701714recommendation_movie_svd.pkl', 'rb') as file:
     svd_model, movie_ratings, movies = pickle.load(file)
  
 # Streamlit app title and description
